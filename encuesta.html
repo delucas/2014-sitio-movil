@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Encuesta</title>
+  <meta http-equiv="content-type" content="application/xhtml+xml;charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="cache-control" content="public"/>
+  <link rel="stylesheet" type="text/css" href="estilos.css" media="screen"/>
+</head>
+<body>
+  <div class="cabecera">
+    <img src="logo.gif" width="30" height="30" alt="Logo"/>
+    Maestr&iacute;a 2014
+  </div>
+
+  <div class="navegacion">
+    <a accesskey="0" href="index.html">[0] Men&uacute; Principal</a>
+  </div>
+
+  <div class="contenido">
+    <h3>Encuesta</h3>
+    <form action="encuesta.html" method="post">
+      <div>
+        <label>Nombre</label><br/>
+        <input type="text" id="nombre" inputmode="latin"/>
+        <br/><br/>
+        <label>Tel&eacute;fono</label><br/>
+        <input type="text" id="telefono" inputmode="latin digits"/>
+        <br/><br/>
+        <label>El curso le parece:</label><br/>
+        <select>
+          <option selected="selected">Muy interesante</option>
+          <option>Interesante</option>
+          <option>Poco interesante</option>
+        </select>
+        <br/><br/>
+        <fieldset class="opciones">
+          <legend>&iquest;Qu&eacute; tema le gust&oacute; m&aacute;s?</legend>
+          <input type="radio" name="grupo" id="optxhtml" value="XHTML" checked="checked"/>
+          <label>XHTML</label>
+          <input type="radio" name="grupo" id="html5" value="HTML5"/>
+          <label>HTML5</label>
+          <input type="radio" name="grupo" id="css" value="CSS"/>
+          <label>CSS</label>
+        </fieldset>
+        <br/><br/>
+        <textarea id="comentarios" rows="4" cols="30" inputmode="latin"></textarea>
+        <br/><br/>
+        <input type="submit" value="Enviar"/>
+      </div>
+    </form>
+  </div>
+
+  <div class="pie">
+    <a href="http://www.unlam.edu.ar">Sitio Completo</a>
+    <br/>
+    Sede: UNLaM - Florencio Varela 1903<br/>
+    Tel: <a href="tel:44808900">4480-8900</a>
+  </div>
+</body>
+</html>
