@@ -47,3 +47,9 @@ a {
   border-style: solid;
   border-color: #869f8c;
 }
+
+.navegacion {
+  background-color: gray;
+  height: 1.3em;
+  width: 100%;
+}
