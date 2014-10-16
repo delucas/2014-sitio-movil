@@ -1,11 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   text-align: center;
 }
 
-h1 {
+a {
+  color: white;
+}
+
+.cabecera {
+  background-color: black;
+  font-size: 2em;
   color: #0a0;
+  width: 100%;
 }
 
 .pie {
+  height: 4em;
+  width: 100%;
   font-size: 0.8em;
+  background-color: black;
+  color: white;
+}
+
+.contenido {
+  margin-bottom: 0.5em;
+}
+
+.itemMenu:hover {
+  background-color: #378aca;
+  text-decoration: none;
+  color: white;
+}
+
+.itemMenu {
+  cursor: pointer;
+  color: black;
+  background-color: #b2c9b5;
+  display: block;
+  margin-top: 0.4em;
+  height: 1.5em;
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: #869f8c;
 }
